@@ -44,4 +44,12 @@ public class BankAccount {
             // Если compareAndSet не удался, повторяем попытку
         }
     }
+
+    @Override
+    public String toString() {
+        return "BankAccount{" +
+                "id=" + id +
+                ", balance=" + balance +
+                '}';
+    }
 }
